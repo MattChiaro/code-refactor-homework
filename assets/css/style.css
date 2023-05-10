@@ -1,8 +1,12 @@
+/* adjust CSS box model to all styling elements and set a margin and padding of 0 */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* apply a background color to entire page */
 
 body {
     background-color: #d9dcd6;
@@ -20,9 +24,13 @@ body {
     font-size: 48px;
 }
 
+/* highlight "SEO" within "Horiseon" */
+
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Main nav with local hyperlinks */
 
 .header nav {
     padding-top: 15px;
@@ -32,9 +40,13 @@ body {
     font-size: 20px;
 }
 
+/* remove bullet points from nav bar */
+
 .header nav ul {
     list-style-type: none;
 }
+
+/* Display nav inline */
 
 .header nav ul li {
     display: inline-block;
@@ -50,6 +62,8 @@ p {
     font-size: 16px;
 }
 
+/* Hero photo */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +72,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* float photos left and right */
 
 .float-left {
     float: left;
@@ -74,6 +90,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* aside styling */
 
 .benefits {
     margin-right: 20px;
@@ -102,6 +120,8 @@ p {
     max-width: 150px;
 }
 
+/* main content services styling */
+
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,6 +139,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* footer styling */
 
 .footer {
     padding: 30px;
